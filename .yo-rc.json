@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "applicationType": "microservice",
+    "gitCompany": "",
+    "baseName": "Book",
+    "packageName": "com.loiclude",
+    "packageFolder": "com/loiclude",
+    "serverPort": 8081,
+    "serviceDiscoveryType": "eureka",
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "gradle",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.8.2",
+    "jwtSecretKey": "Y2ZkNWRiM2ZlYmY2MjY1YWI5MzVkNmI1Zjc0YTEwMjAzMzkwOGE2ZTMxOGE0MjkwNWJiMWJlYjNlM2QxZjM1MDhlYmZkYzQwYmY2OTNlOWI3MWEzZjA3ZjY3YzkyYWIzYTk5NzJjNjE3YTA3ZTgwMmE4YWFiYmQzNmE3MTQ2MzU=",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  },
+  "git-provider": "GitHub",
+  "git-company": "nguyentriloi",
+  "repository-name": "bookstore"
+}
